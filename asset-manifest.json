@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/vending-machine/static/css/main.0e7b28b9.chunk.css",
+    "main.js": "/vending-machine/static/js/main.7a8f5b57.chunk.js",
+    "main.js.map": "/vending-machine/static/js/main.7a8f5b57.chunk.js.map",
+    "runtime-main.js": "/vending-machine/static/js/runtime-main.31a8cc55.js",
+    "runtime-main.js.map": "/vending-machine/static/js/runtime-main.31a8cc55.js.map",
+    "static/js/2.d14a1d1b.chunk.js": "/vending-machine/static/js/2.d14a1d1b.chunk.js",
+    "static/js/2.d14a1d1b.chunk.js.map": "/vending-machine/static/js/2.d14a1d1b.chunk.js.map",
+    "static/js/3.58f301ab.chunk.js": "/vending-machine/static/js/3.58f301ab.chunk.js",
+    "static/js/3.58f301ab.chunk.js.map": "/vending-machine/static/js/3.58f301ab.chunk.js.map",
+    "index.html": "/vending-machine/index.html",
+    "static/css/main.0e7b28b9.chunk.css.map": "/vending-machine/static/css/main.0e7b28b9.chunk.css.map",
+    "static/js/2.d14a1d1b.chunk.js.LICENSE.txt": "/vending-machine/static/js/2.d14a1d1b.chunk.js.LICENSE.txt",
+    "static/media/beer.edf95573.jpg": "/vending-machine/static/media/beer.edf95573.jpg",
+    "static/media/chips.1763bd8c.jpg": "/vending-machine/static/media/chips.1763bd8c.jpg",
+    "static/media/ramen.fa788404.jpg": "/vending-machine/static/media/ramen.fa788404.jpg",
+    "static/media/v-machine.c3744bbe.jpg": "/vending-machine/static/media/v-machine.c3744bbe.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.31a8cc55.js",
+    "static/js/2.d14a1d1b.chunk.js",
+    "static/css/main.0e7b28b9.chunk.css",
+    "static/js/main.7a8f5b57.chunk.js"
+  ]
+}
