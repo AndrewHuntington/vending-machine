@@ -1,0 +1,32 @@
+.Ramen {
+  display: flex;
+
+  background-color: gray;
+  height: 100%;
+}
+
+.Ramen img {
+  height: 100%;
+  width: 70%;
+}
+
+.Ramen-menu {
+  background-color: #fff;
+  border: 2px solid black;
+  width: 30%;
+}
+
+.Ramen-menu-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  margin: 1rem;
+}

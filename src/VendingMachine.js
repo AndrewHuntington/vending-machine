@@ -10,12 +10,12 @@ export default class VendingMachine extends Component {
   render() {
     return (
       <div className="VendingMachine">
-        {/* <Switch>
+        <Switch>
           <Route exact path="/" component={Home} />
           <Route exact path="/chips" component={Chips} />
           <Route exact path="/beer" component={Beer} />
           <Route exact path="/ramen" component={Ramen} />
-        </Switch> */}
+        </Switch>
       </div>
     );
   }
