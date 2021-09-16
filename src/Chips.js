@@ -11,7 +11,7 @@ export default class Chips extends Component {
         <div className="Chips-menu">
           <ul className="Chips-menu-list">
             <li>
-              <Link to="/">Go Back</Link>
+              <Link to="/vending-machine">Go Back</Link>
             </li>
           </ul>
         </div>

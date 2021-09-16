@@ -11,7 +11,7 @@ export default class Beer extends Component {
         <div className="Beer-menu">
           <ul className="Beer-menu-list">
             <li>
-              <Link to="/">Go Back</Link>
+              <Link to="/vending-machine">Go Back</Link>
             </li>
           </ul>
         </div>

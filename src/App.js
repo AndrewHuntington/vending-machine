@@ -13,16 +13,16 @@ export default class App extends Component {
     return (
       <div className="App">
         <nav className="App-nav">
-          <NavLink exact to="/" activeStyle={activeStyle}>
+          <NavLink exact to="/vending-machine" activeStyle={activeStyle}>
             Home
           </NavLink>
-          <NavLink exact to="/chips" activeStyle={activeStyle}>
+          <NavLink exact to="/vending-machine/chips" activeStyle={activeStyle}>
             Chips
           </NavLink>
-          <NavLink exact to="/beer" activeStyle={activeStyle}>
+          <NavLink exact to="/vending-machine/beer" activeStyle={activeStyle}>
             Beer
           </NavLink>
-          <NavLink exact to="/ramen" activeStyle={activeStyle}>
+          <NavLink exact to="/vending-machine/ramen" activeStyle={activeStyle}>
             Ramen
           </NavLink>
         </nav>

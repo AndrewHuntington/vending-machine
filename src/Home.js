@@ -12,13 +12,13 @@ export default class Home extends Component {
           <ul className="Home-menu-list">
             <li>Select an Item:</li>
             <li>
-              <Link to="/chips">Chips</Link>
+              <Link to="/vending-machine/chips">Chips</Link>
             </li>
             <li>
-              <Link to="/beer">Beer</Link>
+              <Link to="/vending-machine/beer">Beer</Link>
             </li>
             <li>
-              <Link to="/ramen">Ramen</Link>
+              <Link to="/vending-machine/ramen">Ramen</Link>
             </li>
           </ul>
         </div>

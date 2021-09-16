@@ -11,10 +11,10 @@ export default class VendingMachine extends Component {
     return (
       <div className="VendingMachine">
         <Switch>
-          <Route exact path="/" component={Home} />
-          <Route exact path="/chips" component={Chips} />
-          <Route exact path="/beer" component={Beer} />
-          <Route exact path="/ramen" component={Ramen} />
+          <Route exact path="/vending-machine" component={Home} />
+          <Route exact path="/vending-machine/chips" component={Chips} />
+          <Route exact path="/vending-machine/beer" component={Beer} />
+          <Route exact path="/vending-machine/ramen" component={Ramen} />
         </Switch>
       </div>
     );

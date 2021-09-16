@@ -11,7 +11,7 @@ export default class Ramen extends Component {
         <div className="Ramen-menu">
           <ul className="Ramen-menu-list">
             <li>
-              <Link to="/">Go Back</Link>
+              <Link to="/vending-machine">Go Back</Link>
             </li>
           </ul>
         </div>
