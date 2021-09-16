@@ -1,25 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from "react";
+import { NavLink } from "react-router-dom";
+import VendingMachine from "./VendingMachine";
+import "./App.css";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+export default class App extends Component {
+  render() {
+    const activeStyle = {
+      fontWeight: "bold",
+      color: "red",
+    };
+
+    return (
+      <div className="App">
+        <nav className="App-nav">
+          <NavLink exact to="/" activeStyle={activeStyle}>
+            Home
+          </NavLink>
+          <NavLink exact to="/chips" activeStyle={activeStyle}>
+            Chips
+          </NavLink>
+          <NavLink exact to="/beer" activeStyle={activeStyle}>
+            Beer
+          </NavLink>
+          <NavLink exact to="/ramen" activeStyle={activeStyle}>
+            Ramen
+          </NavLink>
+        </nav>
+        <VendingMachine />
+      </div>
+    );
+  }
 }
-
-export default App;
